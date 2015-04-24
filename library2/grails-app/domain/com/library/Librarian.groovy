@@ -3,7 +3,7 @@ package com.library
 class Librarian {
 String name
 String email
-String username
+String userName
 String password
 String telephone
 
