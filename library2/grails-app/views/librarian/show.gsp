@@ -59,11 +59,11 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${librarianInstance?.username}">
+				<g:if test="${librarianInstance?.userName}">
 				<li class="fieldcontain">
-					<span id="username-label" class="property-label"><g:message code="librarian.username.label" default="Username" /></span>
+					<span id="userName-label" class="property-label"><g:message code="librarian.userName.label" default="User Name" /></span>
 					
-						<span class="property-value" aria-labelledby="username-label"><g:fieldValue bean="${librarianInstance}" field="username"/></span>
+						<span class="property-value" aria-labelledby="userName-label"><g:fieldValue bean="${librarianInstance}" field="userName"/></span>
 					
 				</li>
 				</g:if>
